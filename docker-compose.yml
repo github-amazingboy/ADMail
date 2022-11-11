@@ -1,0 +1,14 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: admail
+services:
+- name: sqlserver
+  image: mcr.microsoft.com/mssql/server
+- name: identity-server
+  dockerFile: templates/service/host/IdentityServerHost/Dockerfile
+- name: a-dMail
+  dockerFile: templates/service/host/ADMail.Host/Dockerfile

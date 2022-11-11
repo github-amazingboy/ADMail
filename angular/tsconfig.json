@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.prod.json",
+  "compilerOptions": {
+    "paths": {
+      "@a-dMail": [
+        "projects/a-dMail/src/public-api.ts"
+      ],
+      "@a-dMail/config": [
+        "projects/a-dMail/config/src/public-api.ts"
+      ],
+      "@proxy": ["projects/a-dMail/src/lib/proxy/index.ts"],
+      "@proxy/*": ["projects/a-dMail/src/lib/proxy/*"]
+    }
+  }
+}

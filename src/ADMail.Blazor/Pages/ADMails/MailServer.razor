@@ -1,0 +1,32 @@
+@page "/mailserver"
+@using Volo.Abp.BlazoriseUI
+@using Volo.Abp.AspNetCore.Components.Web
+@using t = global::ADMail
+@using tm = global::ADMail.Mail
+@using ADMail.Localization
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<ADMailResource> L
+@inject AbpBlazorMessageLocalizerHelper<ADMailResource> LH
+
+
+@inherits AbpCrudPageBase<IMailServerAppService, tm.MailServerDto, Guid, MailServerPagedAndSortedResultRequestDto,CreateUpdateMailServerDto>
+
+<Card>
+  <CardBody>
+    <DataGrid TItem="tm.MailServerDto" Filterable="true" Data="Entities" ReadData="OnDataGridReadAsync" TotalItems="TotalCount" ShowPager="true" PageSize="PageSize">
+      <DataGridColumns>
+                <DataGridEntityActionsColumn TItem="tm.MailServerDto" >
+          <DisplayTemplate>
+            <EntityActions TItem="tm.MailServerDto" EntityActionsColumn="@EntityActionsColumn">
+              <EntityAction TItem="tm.MailServerDto" Text="@L["Edit"]" Clicked="() => OpenEditModalAsync(context)" />
+              <EntityAction TItem="tm.MailServerDto" Text="@L["Delete"]" Clicked="() => DeleteEntityAsync(context)" ConfirmationMessage="() => GetDeleteConfirmationMessage(context)" />
+            </EntityActions>
+          </DisplayTemplate>
+        </DataGridEntityActionsColumn>
+                <DataGridColumn TItem="tm.MailServerDto" Field="@nameof(tm.MailServerDto.Id)" Caption="Id"></DataGridColumn>
+                <DataGridColumn TItem="tm.MailServerDto" Field="@nameof(tm.MailServerDto.Name)" Caption="Name"></DataGridColumn>
+        
+      </DataGridColumns>
+    </DataGrid>
+  </CardBody>
+</Card>

@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "ADMail": {
+      "path": "ADMail.abpmdl.json"
+    }
+  }
+}

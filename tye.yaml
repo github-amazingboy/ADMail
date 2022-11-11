@@ -1,0 +1,29 @@
+# tye application configuration file
+# read all about it at https://github.com/dotnet/tye
+#
+# when you've given us a try, we'd love to know what you think:
+#    https://aka.ms/AA7q20u
+#
+name: admail
+services:
+- name: admail-httpapi-host
+  project: host/ADMail.HttpApi.Host/ADMail.HttpApi.Host.csproj
+  bindings:
+  - port: 44326
+    protocol: https
+- name: admail-blazor-host
+  project: host/ADMail.Blazor.Host/ADMail.Blazor.Host.csproj
+  bindings:
+  - port: 44321
+    protocol: https
+- name: admail-AuthServer-host
+  project: host/ADMail.AuthServer/ADMail.AuthServer.csproj
+  bindings:
+  - port: 44389
+    protocol: https
+- name: admail-Blazor-Server-host
+  project: host/ADMail.Blazor.Server.Host/ADMail.Blazor.Server.Host.csproj
+  bindings:
+  - port: 44372
+    protocol: https
+    

@@ -1,0 +1,16 @@
+{
+  "culture": "zh-Hans",
+  "texts": {
+    "MyAccount": "我的账户",
+    "SamplePageMessage": "ADMail模块的示例页面",
+    "Permission:ADMail": "邮件群发管理",
+    "Permission:ADMail:MailServer": "发件服务器设置",
+    "Permission:ADMail:MailServer:MailServer_List": "发件服务器列表",
+    "Permission:ADMail:MailServer:MailServer_Update": "发件服务器修改",
+    "Permission:ADMail:MailServer:MailServer_Create": "发件服务器创建",
+    "Permission:ADMail:MailServer:MailServer_Delete": "发件服务器移除",
+    "Permission:ADMail:MailServer:MailServer_Detail": "发件服务器详情",
+
+    "Menu:CRM": "CRM"
+  }
+}

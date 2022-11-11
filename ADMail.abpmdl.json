@@ -1,0 +1,111 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ADMail.Domain.Shared": {
+      "path": "src/ADMail.Domain.Shared/ADMail.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.Domain": {
+      "path": "src/ADMail.Domain/ADMail.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.Application.Contracts": {
+      "path": "src/ADMail.Application.Contracts/ADMail.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.Application": {
+      "path": "src/ADMail.Application/ADMail.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.EntityFrameworkCore": {
+      "path": "src/ADMail.EntityFrameworkCore/ADMail.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.MongoDB": {
+      "path": "src/ADMail.MongoDB/ADMail.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.HttpApi": {
+      "path": "src/ADMail.HttpApi/ADMail.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.HttpApi.Client": {
+      "path": "src/ADMail.HttpApi.Client/ADMail.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.TestBase": {
+      "path": "test/ADMail.TestBase/ADMail.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ADMail.EntityFrameworkCore.Tests": {
+      "path": "test/ADMail.EntityFrameworkCore.Tests/ADMail.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ADMail.MongoDB.Tests": {
+      "path": "test/ADMail.MongoDB.Tests/ADMail.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ADMail.Domain.Tests": {
+      "path": "test/ADMail.Domain.Tests/ADMail.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ADMail.Application.Tests": {
+      "path": "test/ADMail.Application.Tests/ADMail.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ADMail.HttpApi.Host": {
+      "path": "host/ADMail.HttpApi.Host/ADMail.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ADMail.Web": {
+      "path": "src/ADMail.Web/ADMail.Web.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ADMail.HttpApi.Client.ConsoleTestApp/ADMail.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ADMail.Web.Host": {
+      "path": "host/ADMail.Web.Host/ADMail.Web.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ADMail.AuthServer": {
+      "path": "host/ADMail.AuthServer/ADMail.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "ADMail.Host.Shared": {
+      "path": "host/ADMail.Host.Shared/ADMail.Host.Shared.abppkg.json",
+      "folder": "host"
+    },
+    "ADMail.Web.Unified": {
+      "path": "host/ADMail.Web.Unified/ADMail.Web.Unified.abppkg.json",
+      "folder": "host"
+    },
+    "ADMail.Blazor": {
+      "path": "src/ADMail.Blazor/ADMail.Blazor.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.Blazor.Host": {
+      "path": "host/ADMail.Blazor.Host/ADMail.Blazor.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ADMail.Blazor.Server": {
+      "path": "src/ADMail.Blazor.Server/ADMail.Blazor.Server.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.Blazor.WebAssembly": {
+      "path": "src/ADMail.Blazor.WebAssembly/ADMail.Blazor.WebAssembly.abppkg.json",
+      "folder": "src"
+    },
+    "ADMail.Blazor.Server.Host": {
+      "path": "host/ADMail.Blazor.Server.Host/ADMail.Blazor.Server.Host.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
