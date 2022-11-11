@@ -15,7 +15,7 @@
   <CardBody>
     <DataGrid TItem="tm.MailServerDto" Filterable="true" Data="Entities" ReadData="OnDataGridReadAsync" TotalItems="TotalCount" ShowPager="true" PageSize="PageSize">
       <DataGridColumns>
-                <DataGridEntityActionsColumn TItem="tm.MailServerDto" >
+        <DataGridEntityActionsColumn TItem="tm.MailServerDto" @ref="@EntityActionsColumn">
           <DisplayTemplate>
             <EntityActions TItem="tm.MailServerDto" EntityActionsColumn="@EntityActionsColumn">
               <EntityAction TItem="tm.MailServerDto" Text="@L["Edit"]" Clicked="() => OpenEditModalAsync(context)" />
